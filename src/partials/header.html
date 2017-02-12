@@ -1,0 +1,83 @@
+
+
+<!-- Start Top Bar -->
+
+            <!-- title bar for 'small' screen -->
+            
+         
+                  <nav class="title-bar nav-mobile" data-responsive-toggle="widemenu" data-hide-for="medium">
+                      
+                            <div class="title-bar-left">
+                              
+                                      <a href="./index.html"><img src="./assets/img/logo.png"  width=150px/></a>
+                            </div>
+                            
+                            <div class="title-bar-right">
+                                
+
+                                      
+                                    <a href="#" class="menu-button" id="menuButton" data-toggle="offCanvas">
+                                                <span class="burger-icon"></span>
+                                    </a>
+                                      
+                                   
+                                      
+                             </div>
+                   
+                    </nav> 
+              
+    
+    
+    
+   <!-- Dropdown menu -->
+
+            <div class="off-canvas-wrapper">
+                <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap" data-close-on-click="false">
+                    <div class="wrapper">
+                        <br><br><br>
+                    
+                      <ul class="vertical menu" data-accordion-menu >
+                          
+                          {{> nav-main}}
+                  
+                      </ul>
+                    </div>
+                </div>
+
+
+    <!-- "wider" top-bar menu for 'medium' and up -->
+
+         
+             
+                  
+                  <nav class="top-bar  show-for-medium nav-desktop" id="widemenu">
+                    
+                     <div class="wrapper">
+                                <div class="top-bar-left" >
+                                    <a href="./index.html"><img src="./assets/img/logo.png" width=150px/></a>
+                                </div>
+                            
+                            <div class="top-bar-right">
+                                    <ul class="dropdown menu" data-dropdown-menu>
+                                  
+                                          {{> nav-main}}
+                        
+                                    </ul>
+                            </div>
+                    </div>
+                      
+                  
+                  </nav>
+                
+              
+             
+           
+        
+    
+    
+    
+    <div class="off-canvas-content" data-off-canvas-content>
+
+
+     
+    <!-- End Top Bar -->
